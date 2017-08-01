@@ -1,0 +1,127 @@
+body {
+  overflow-x: hidden;
+}
+.input-group
+{
+  margin: 20px 0;
+}
+.input-group-btn button {
+  height: 34px;
+}
+.widget
+{
+  position: absolute;
+  right: -24%;
+  top: 50px;
+  z-index: 1;
+}
+.panel {
+  padding: 20px;
+  opacity: 0.9;
+}
+.btn-hide-option {
+  position: absolute;
+  width: 25px;
+  left: -10px;
+  top: 100px;
+  background: #337ab7;
+  border-radius: 0;
+  border-width: 1px;
+  border-right-width: 0;
+}
+.btn-hide-option i {
+  font-size: 20px;
+  color: white;
+}
+md-slider.md-default-theme .md-track.md-track-fill, md-slider .md-track.md-track-fill {
+  background-color: darkgreen;
+}
+md-slider.md-default-theme .md-thumb:after, md-slider .md-thumb:after {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+md-slider.md-default-theme .md-focus-ring, md-slider .md-focus-ring {
+  background-color: darkgreen;
+}
+h3 span {
+  color: #c00;
+  font-weight: bold;
+}
+md-input-container {
+  display: none;
+}
+.reco-div {
+  margin: 20px 0;
+}
+.icon-reco {
+  color: darkgreen;
+}
+.input-div {
+  display: block;
+}
+
+.stand-graph .circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.stand-graph .link {
+  stroke: #555;
+  stroke-opacity: 0.2;
+}
+
+.stand-graph .link-active {
+  stroke: #555;
+  stroke-opacity: 1;
+}
+
+.stand-graph .label {
+  stroke: #555;
+  stroke-opacity: 0.2;
+}
+
+.stand-graph .label-active {
+  stroke: #555;
+  stroke-opacity: 1;
+}
+
+.stand-graph .text {
+  font-size: 12px;
+  display: none;
+}
+
+.stand-graph .text-active {
+  font-size: 12px;
+  display: block;
+}
+
+.stand-graph .arrow {
+  fill: #555;
+  fill-opacity: 0.2;
+}
+
+.stand-graph .arrow-active {
+  fill: #555;
+  fill-opacity: 1;
+}
+
+md-checkbox.md-checked .md-icon {
+  background-color: grey;
+}
+
+.zoom-controller {
+  position: absolute;
+  display: block !important;
+  top: 0;
+  left: 10px;
+  z-index: 1;
+}
+
+.hierarchy circle {
+  stroke-width: 1.5px;
+}
+
+.hierarchy line {
+  stroke: #999;
+  stroke-width: 1.5px;
+}
